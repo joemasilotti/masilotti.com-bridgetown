@@ -11,4 +11,10 @@ Bridgetown.configure do |config|
       "cta" => "CTA"
     )
   end
+
+  collections do
+    snippets do
+      output false
+    end
+  end
 end
